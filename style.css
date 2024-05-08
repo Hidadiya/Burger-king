@@ -1,0 +1,103 @@
+.container{
+    border: 2px solid snow;
+    background-color: rgba(0, 0, 0, 0);
+}
+.col-5 img{
+    width: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.col-3 img{
+    width: 35px;
+    padding-top: 5px;
+}
+ #sign button{
+    background-color: rgb(167, 27, 0);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    padding-top: 3px;
+    margin-left: 60px;
+    margin-top: 4px;
+}
+#balance button{
+    background-color: rgb(80, 35, 20);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    margin-top: 5px;
+}
+/* heading completed hear */
+
+.col-6 h1{
+    font-family: "Flame Bold";
+    color: rgb(80, 35, 20);
+    font-size: 70px;
+}
+.col-6 button{
+    border-radius: 30px;
+    font-family: "Flame Bold";
+}
+ .col-6 img{
+    border: none;
+ }
+ .col-6 h3{
+    font-family: "Flame Bold";
+    color: rgb(80, 35, 20);
+ }
+ .col-6 p{
+    color: rgb(80, 35, 20);
+ }
+ .col-6 a{
+    color: rgb(80, 35, 20);
+ }
+ .food{
+    /* position: relative;
+    left: 450px; */
+    width: 140px;
+    height: 50px;
+    border-color:rgb(80, 35, 20); 
+    color:rgb(80, 35, 20);  ;
+    float: right;
+ }
+ .text-adv{
+   font-family: "Flame Bold";
+    font-weight: bolder;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(80, 35, 20);
+    margin-top: 150px;
+ }
+ .col-12{
+   background-color: rgb(80, 35, 20) ;
+   color: #fff;
+   font-size: 10px;
+   font-weight: bold;
+   margin-top: 5px;
+ }
+ .col-12 a{
+   color: #fff;
+ }
+ .col-12 p{
+   padding-top: 20px;
+ }
+ /* All ends hear  */
+ /* ############### */
+ /* meadia quarry starts from hear */
+ @media (max-width:576px){
+   .col-6 button{
+      position: relative ;
+      left: 10px;
+   }
+   .balance{
+      display: none;
+   }
+   .col-6 img{
+      object-fit: cover;
+   }
+
+ }
